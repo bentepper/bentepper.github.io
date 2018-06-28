@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Overwhen</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
+	  
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="countdown/jquery.countdown.min.js"></script>
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="images/icon.png" alt="logo" height="30"> Overwhen</a>		  
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#event">Event</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#season">Season</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#patch">Patch</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- <header class="bg-primary text-white">
+      <div class="container text-center">
+        <h1>Welcome to Scrolling Nav</h1>
+        <p class="lead">A landing page template freshly redesigned for Bootstrap 4</p>
+      </div>
+    </header>
+--->
+
+    <section id="event">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Event</h2>
+			<h3>Unknown</h3>
+			  
+		    <img class="right blur" src="images/summergames.png" alt="summer games" data-enllax-ratio=".2" data-enllax-type="foreground" data-enllax-direction="vertical"/>
+			  
+            <p class="lead">There are currently no events running. Following the trend of 2016 and 2017, the next event could be the Summer Games 2018.</p>		  			  
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="season">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Season</h2>
+            <h3>Season 10</h3> 
+			  		  
+			 <ul id="season10">
+			  <li><span class="days">00</span><p class="days_text">Days</p></li>
+			  <li class="seperator">:</li>
+			  <li><span class="hours">00</span><p class="hours_text">Hours</p></li>
+			  <li class="seperator">:</li>
+			  <li><span class="minutes">00</span><p class="minutes_text">Minutes</p></li>
+			  <li class="seperator">:</li>
+			  <li><span class="seconds">00</span><p class="seconds_text">Seconds</p></li>
+			</ul>
+			  
+			<script type="text/javascript">
+				$('#season10').countdown({
+					date: '06/28/2018 00:00:00',
+					offset: 0,
+					day: 'Day',
+					days: 'Days'
+				});
+			</script>
+			  
+			  <p class="caption">until Season 10 ends.</p>	
+			  
+		    <img class="left blur" src="images/season10.jpg" alt="season 10" data-enllax-ratio=".2" data-enllax-type="foreground" data-enllax-direction="vertical"/>
+			  		  
+			  <p class="lead">Season 10 began 1 May 2018. Notable changes included the addition of Rialto and Brigitte to Competitive. It will end on 28 June 2018.</p>	
+			  
+			  <h3>Season 11</h3> 
+			  		  
+			 <ul id="season11">
+			  <li><span class="days">00</span><p class="days_text">Days</p></li>
+			  <li class="seperator">:</li>
+			  <li><span class="hours">00</span><p class="hours_text">Hours</p></li>
+			  <li class="seperator">:</li>
+			  <li><span class="minutes">00</span><p class="minutes_text">Minutes</p></li>
+			  <li class="seperator">:</li>
+			  <li><span class="seconds">00</span><p class="seconds_text">Seconds</p></li>
+			</ul>
+			  
+			<script type="text/javascript">
+				$('#season11').countdown({
+					date: '06/30/2018 00:00:00',
+					offset: 0,
+					day: 'Day',
+					days: 'Days'
+				});
+			</script>
+			  
+			  <p class="caption">until Season 11 begins.</p>	
+			  		  		  
+			  <p class="lead">Season 11 begins on 30 June 2018. No new changes, except Top 500 players must have Blizzard SMS Protect enabled on their account.</p>	
+			  
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="patch">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+			  
+			  <div id="anim_container" class="right blur" style="width: 300px;
+	z-index: -1" data-enllax-ratio=".2" data-enllax-type="foreground" data-enllax-direction="vertical"></div>
+			  
+            <h2>Patch</h2>
+			<h3>1.25.0.1</h3>
+			  
+			  			  
+            <p class="lead">The latest patch <a href="https://playoverwatch.com/en-us/news/patch-notes/pc/#patch-47946">1.25.0.1</a> was released on 26 June 2018. Highlights include new social features as well as changes to Symmetra and Lunar Colony.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+	 
+    <!-- Footer -->
+	  
+	  <img src="images/footer.png" width="1000" alt="footer" class="center"/>
+	  
+    <footer class="py-5">
+<div class="container">
+    <p class="m-0 text-center">© Overwhen 2018. Overwatch © 2018 Blizzard Entertainment.</p>
+    </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script>
+    <script src="js/jquery.enllax.js"></script>
+	<script src="js/bodymovin.js"></script>
+	  
+	<!-- Parralax -->
+  <script>		
+	  (function($){
+	  $(window).enllax();
+	  })(jQuery);
+	</script>
+	  
+	<!-- Animation -->
+	  <script>
+	  var container = document.getElementById('anim_container');
+      // Set up our animation 
+
+      var animData = {
+          container: container,
+          renderer: 'svg',
+          autoplay: true,
+          loop: true,
+          path : 'typing.json'
+      };
+      var anim = bodymovin.loadAnimation(animData);
+	  </script>
+
+</body>
+
+</html>
